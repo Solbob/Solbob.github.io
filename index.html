@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Revenouy's webpage! A place to know more about this particular entity.'">
+
   <title>Revenouy</title>
+  <!-- -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -21,7 +24,8 @@
       font-size: 3rem;
     }
     button {
-      margin-top: 20px;
+      margin-top: 40px; /* Add space above the button */
+      margin-bottom: 20px; /* Add space below the button */
       padding: 10px 20px;
       font-size: 1.2rem;
       color: #123524;
@@ -29,17 +33,35 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      line-height: 1.4;
     }
     button:hover {
       background-color: #349868;
     }
+     
     img {
       margin-top: 20px;
       width: 200px;
       height: auto;
       border-radius: 10px;
+     
+      @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem; /* Smaller font for titles */
+    }
+    button {
+      font-size: 1rem; /* Reduce button size */
+      padding: 8px 16px; /* Adjust padding for compact look */
+    }
+    img {
+      width: 150px; /* Scale down the image */
+    }
+  }
+
     }
   </style>
+  <link rel="stylesheet" href="background_style.css">
+  <link rel="icon" href="hello.jpeg" type="image/x-icon">
 </head>
 <body>
   <h1>Hello!</h1>
